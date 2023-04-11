@@ -1,0 +1,12 @@
+D:\Todo\Todo.Application\bin\Debug\net6.0\Todo.Application.deps.json
+D:\Todo\Todo.Application\bin\Debug\net6.0\Todo.Application.dll
+D:\Todo\Todo.Application\bin\Debug\net6.0\Todo.Application.pdb
+D:\Todo\Todo.Application\obj\Debug\net6.0\Todo.Application.csproj.AssemblyReference.cache
+D:\Todo\Todo.Application\obj\Debug\net6.0\Todo.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Todo\Todo.Application\obj\Debug\net6.0\Todo.Application.AssemblyInfoInputs.cache
+D:\Todo\Todo.Application\obj\Debug\net6.0\Todo.Application.AssemblyInfo.cs
+D:\Todo\Todo.Application\obj\Debug\net6.0\Todo.Application.csproj.CoreCompileInputs.cache
+D:\Todo\Todo.Application\obj\Debug\net6.0\Todo.Application.dll
+D:\Todo\Todo.Application\obj\Debug\net6.0\refint\Todo.Application.dll
+D:\Todo\Todo.Application\obj\Debug\net6.0\Todo.Application.pdb
+D:\Todo\Todo.Application\obj\Debug\net6.0\ref\Todo.Application.dll

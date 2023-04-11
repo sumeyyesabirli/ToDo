@@ -1,0 +1,17 @@
+D:\Todo\Todo.Persistence\bin\Debug\net6.0\Todo.Persistence.deps.json
+D:\Todo\Todo.Persistence\bin\Debug\net6.0\Todo.Persistence.runtimeconfig.json
+D:\Todo\Todo.Persistence\bin\Debug\net6.0\Todo.Persistence.dll
+D:\Todo\Todo.Persistence\bin\Debug\net6.0\Todo.Persistence.pdb
+D:\Todo\Todo.Persistence\obj\Debug\net6.0\Todo.Persistence.csproj.AssemblyReference.cache
+D:\Todo\Todo.Persistence\obj\Debug\net6.0\Todo.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Todo\Todo.Persistence\obj\Debug\net6.0\Todo.Persistence.AssemblyInfoInputs.cache
+D:\Todo\Todo.Persistence\obj\Debug\net6.0\Todo.Persistence.AssemblyInfo.cs
+D:\Todo\Todo.Persistence\obj\Debug\net6.0\Todo.Persistence.csproj.CoreCompileInputs.cache
+D:\Todo\Todo.Persistence\obj\Debug\net6.0\Todo.Persistence.dll
+D:\Todo\Todo.Persistence\obj\Debug\net6.0\refint\Todo.Persistence.dll
+D:\Todo\Todo.Persistence\obj\Debug\net6.0\Todo.Persistence.pdb
+D:\Todo\Todo.Persistence\obj\Debug\net6.0\Todo.Persistence.genruntimeconfig.cache
+D:\Todo\Todo.Persistence\obj\Debug\net6.0\ref\Todo.Persistence.dll
+D:\Todo\Todo.Persistence\bin\Debug\net6.0\Todo.Core.dll
+D:\Todo\Todo.Persistence\bin\Debug\net6.0\Todo.Core.pdb
+D:\Todo\Todo.Persistence\obj\Debug\net6.0\Todo.Persistence.csproj.CopyComplete
