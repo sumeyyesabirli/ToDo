@@ -414,6 +414,19 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "Todo.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Todo.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Todo.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Todo.Application.dll": {}
+        }
+      },
       "Todo.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1166,6 +1179,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Todo.Application/1.0.0": {
+      "type": "project",
+      "path": "../Todo.Application/Todo.Application.csproj",
+      "msbuildProject": "../Todo.Application/Todo.Application.csproj"
+    },
     "Todo.Core/1.0.0": {
       "type": "project",
       "path": "../Todo.Domain/Todo.Core.csproj",
@@ -1179,6 +1197,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.3",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 7.0.3",
+      "Todo.Application >= 1.0.0",
       "Todo.Core >= 1.0.0"
     ]
   },
@@ -1209,6 +1228,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\Todo\\Todo.Application\\Todo.Application.csproj": {
+              "projectPath": "D:\\Todo\\Todo.Application\\Todo.Application.csproj"
+            },
             "D:\\Todo\\Todo.Domain\\Todo.Core.csproj": {
               "projectPath": "D:\\Todo\\Todo.Domain\\Todo.Core.csproj"
             }

@@ -473,6 +473,19 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "Todo.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Todo.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Todo.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Todo.Application.dll": {}
+        }
+      },
       "Todo.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -495,6 +508,7 @@
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
           "Microsoft.EntityFrameworkCore": "7.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.3",
+          "Todo.Application": "1.0.0",
           "Todo.Core": "1.0.0"
         },
         "compile": {
@@ -1340,6 +1354,11 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Todo.Application/1.0.0": {
+      "type": "project",
+      "path": "../Todo.Application/Todo.Application.csproj",
+      "msbuildProject": "../Todo.Application/Todo.Application.csproj"
     },
     "Todo.Core/1.0.0": {
       "type": "project",
