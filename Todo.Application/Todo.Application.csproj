@@ -10,4 +10,9 @@
     <ProjectReference Include="..\Todo.Domain\Todo.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\Commands\" />
+    <Folder Include="Services\Queries\" />
+  </ItemGroup>
+
 </Project>

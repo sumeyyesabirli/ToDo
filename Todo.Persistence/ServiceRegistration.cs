@@ -2,7 +2,9 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.Diagnostics;
+using Todo.Application.Repositories;
 using Todo.Persistence.Contexts;
+using Todo.Persistence.Repositories;
 
 namespace Blog.Infrastructure.Persistence
 {
@@ -17,6 +19,9 @@ namespace Blog.Infrastructure.Persistence
                 x.EnableSensitiveDataLogging();
             });
             services.AddScoped<DbContext, EfDbContext>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<ITodoItemRepository, TodoItemRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
 
         }
     }

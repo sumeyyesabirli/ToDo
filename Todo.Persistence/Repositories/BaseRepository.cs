@@ -1,43 +1,64 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using Todo.Application.Repositories;
 using Todo.Core.Entities;
+using Todo.Persistence.Contexts;
 
 namespace Todo.Persistence.Repositories
 {
     public class BaseRepository<T> : IBaseRepository<T> where T : BaseEntity
     {
-        public Task<T> Add(T entity)
+        private readonly EfDbContext _context;
+
+        public BaseRepository(EfDbContext context)
         {
-            throw new NotImplementedException();
+            _context = context;
+        }       
+        public async Task<bool> AddAsync(T entity)
+        {
+           EntityEntry<T> entityEntry= await _context.AddAsync(entity);
+           return entityEntry.State == EntityState.Added;
         }
 
-        public Task Delete(T entity)
+        public bool Delete(T entity)
         {
-            throw new NotImplementedException();
+            EntityEntry<T> entityEntry = _context.Remove(entity);
+            return entityEntry.State == EntityState.Deleted;
+        }
+        public bool DeleteRenge(List<T> entity)
+        {
+            _context.RemoveRange(entity);
+            return true;
+        }
+        public IQueryable<T> GetAllAsync()
+        {
+            return _context.Set<T>();
         }
 
-        public Task<List<T>> GetAllAsync()
+        public async Task<T> GetByIdAsync(Guid id)
         {
-            throw new NotImplementedException();
+            return  await _context.Set<T>().FirstOrDefaultAsync(p=> p.Id == id);
         }
 
-        public Task<T> GetAsync(int id)
+        public async Task<T> GetSingleAsync(Expression<Func<T, bool>> method)
         {
-            throw new NotImplementedException();
+            return await _context.Set<T>().FirstOrDefaultAsync(method);
         }
-
-        public Task<List<T>> GetDataTime(DateTime dateTime)
+       
+        public bool Update(T entity)
         {
-            throw new NotImplementedException();
+            EntityEntry<T> entityEntry = _context.Update(entity);
+            return entityEntry.State == EntityState.Deleted;
         }
-
-        public Task<T> Update(T entity)
+        public async Task<int> SaveAsync()
         {
-            throw new NotImplementedException();
+           return await _context.SaveChangesAsync();
         }
     }
 }

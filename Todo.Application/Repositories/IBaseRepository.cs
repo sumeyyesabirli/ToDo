@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using Todo.Core.Entities;
@@ -9,11 +10,15 @@ namespace Todo.Application.Repositories
 {
     public interface IBaseRepository<T> where T : BaseEntity
     {
-        Task<T> GetAsync(int id);
-        Task<T> Add(T entity);
-        Task<T> Update(T entity);
-        Task Delete(T entity);
-        Task<List<T>> GetAllAsync();
+        bool Update(T entity);
+        bool Delete(T entity);
+        bool DeleteRenge(List<T> entity);
+        Task<int> SaveAsync();
+        Task<T> GetByIdAsync(Guid id);
+        Task<bool> AddAsync(T entity);
+        IQueryable<T> GetAllAsync();             
+        Task<T> GetSingleAsync(Expression<Func<T, bool>> method);
+        //vermiş olduğumuz şarta uygun ilk tekil nesneyi getirir
     }
 }
 
