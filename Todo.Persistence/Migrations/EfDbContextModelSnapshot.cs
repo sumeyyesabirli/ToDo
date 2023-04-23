@@ -43,10 +43,6 @@ namespace Todo.Persistence.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("boolean");
 
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("timestamp without time zone");
 
@@ -65,11 +61,10 @@ namespace Todo.Persistence.Migrations
                     b.Property<Guid?>("CategoryId")
                         .HasColumnType("uuid");
 
-                    b.Property<string>("Content")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<DateTime?>("DueDate")
                         .HasColumnType("timestamp without time zone");
 
                     b.Property<bool>("IsActive")
@@ -78,7 +73,7 @@ namespace Todo.Persistence.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("boolean");
 
-                    b.Property<string>("Title")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -139,13 +134,11 @@ namespace Todo.Persistence.Migrations
                         .WithMany("TodoItems")
                         .HasForeignKey("CategoryId");
 
-                    b.HasOne("Todo.Core.Entities.User", "User")
+                    b.HasOne("Todo.Core.Entities.User", null)
                         .WithMany("TodoItems")
                         .HasForeignKey("UserId");
 
                     b.Navigation("Category");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Todo.Core.Entities.Category", b =>

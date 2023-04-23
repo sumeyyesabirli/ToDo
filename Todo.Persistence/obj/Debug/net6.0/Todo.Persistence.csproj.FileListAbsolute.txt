@@ -15,3 +15,5 @@ D:\Todo\Todo.Persistence\obj\Debug\net6.0\ref\Todo.Persistence.dll
 D:\Todo\Todo.Persistence\bin\Debug\net6.0\Todo.Core.dll
 D:\Todo\Todo.Persistence\bin\Debug\net6.0\Todo.Core.pdb
 D:\Todo\Todo.Persistence\obj\Debug\net6.0\Todo.Persistence.csproj.CopyComplete
+D:\Todo\Todo.Persistence\bin\Debug\net6.0\Todo.Application.dll
+D:\Todo\Todo.Persistence\bin\Debug\net6.0\Todo.Application.pdb

@@ -16,7 +16,7 @@ namespace Todo.Application.Repositories
         Task<int> SaveAsync();
         Task<T> GetByIdAsync(Guid id);
         Task<bool> AddAsync(T entity);
-        IQueryable<T> GetAllAsync();             
+        IQueryable<T> GetAll();             
         Task<T> GetSingleAsync(Expression<Func<T, bool>> method);
         //vermiş olduğumuz şarta uygun ilk tekil nesneyi getirir
     }

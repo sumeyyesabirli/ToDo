@@ -51,3 +51,17 @@ D:\Todo\Todo.Api\bin\Debug\net6.0\System.CodeDom.dll
 D:\Todo\Todo.Api\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 D:\Todo\Todo.Api\bin\Debug\net6.0\System.Text.Json.dll
 D:\Todo\Todo.Api\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Todo\Todo.Api\bin\Debug\net6.0\AutoMapper.dll
+D:\Todo\Todo.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Todo\Todo.Api\bin\Debug\net6.0\MediatR.dll
+D:\Todo\Todo.Api\bin\Debug\net6.0\MediatR.Contracts.dll
+D:\Todo\Todo.Api\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\Todo\Todo.Api\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Todo\Todo.Api\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Todo\Todo.Api\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Todo\Todo.Api\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Todo\Todo.Api\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Todo\Todo.Api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Todo\Todo.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Todo\Todo.Api\bin\Debug\net6.0\Todo.Application.dll
+D:\Todo\Todo.Api\bin\Debug\net6.0\Todo.Application.pdb

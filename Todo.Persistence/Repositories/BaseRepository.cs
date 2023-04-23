@@ -36,7 +36,7 @@ namespace Todo.Persistence.Repositories
             _context.RemoveRange(entity);
             return true;
         }
-        public IQueryable<T> GetAllAsync()
+        public IQueryable<T> GetAll()
         {
             return _context.Set<T>();
         }
@@ -54,7 +54,7 @@ namespace Todo.Persistence.Repositories
         public bool Update(T entity)
         {
             EntityEntry<T> entityEntry = _context.Update(entity);
-            return entityEntry.State == EntityState.Deleted;
+            return entityEntry.State == EntityState.Modified;
         }
         public async Task<int> SaveAsync()
         {

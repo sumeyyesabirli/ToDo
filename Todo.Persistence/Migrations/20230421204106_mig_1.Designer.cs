@@ -12,7 +12,7 @@ using Todo.Persistence.Contexts;
 namespace Todo.Persistence.Migrations
 {
     [DbContext(typeof(EfDbContext))]
-    [Migration("20230411152031_mig_1")]
+    [Migration("20230421204106_mig_1")]
     partial class mig_1
     {
         /// <inheritdoc />
@@ -46,10 +46,6 @@ namespace Todo.Persistence.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("boolean");
 
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("timestamp without time zone");
 
@@ -68,10 +64,6 @@ namespace Todo.Persistence.Migrations
                     b.Property<Guid?>("CategoryId")
                         .HasColumnType("uuid");
 
-                    b.Property<string>("Content")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("timestamp without time zone");
 
@@ -81,7 +73,7 @@ namespace Todo.Persistence.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("boolean");
 
-                    b.Property<string>("Title")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -142,13 +134,11 @@ namespace Todo.Persistence.Migrations
                         .WithMany("TodoItems")
                         .HasForeignKey("CategoryId");
 
-                    b.HasOne("Todo.Core.Entities.User", "User")
+                    b.HasOne("Todo.Core.Entities.User", null)
                         .WithMany("TodoItems")
                         .HasForeignKey("UserId");
 
                     b.Navigation("Category");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Todo.Core.Entities.Category", b =>
