@@ -12,8 +12,8 @@ using Todo.Persistence.Contexts;
 namespace Todo.Persistence.Migrations
 {
     [DbContext(typeof(EfDbContext))]
-    [Migration("20230423124805_mig_2")]
-    partial class mig_2
+    [Migration("20230426172925_mig_3")]
+    partial class mig_3
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -79,6 +79,9 @@ namespace Todo.Persistence.Migrations
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
+
+                    b.Property<int?>("Priority")
+                        .HasColumnType("integer");
 
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("timestamp without time zone");

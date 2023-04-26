@@ -1,8 +1,5 @@
 ﻿using AutoMapper;
 using MediatR;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Todo.Application.Repositories;
 
 namespace Todo.Application.Services.Commands.TodoItem.Delete
@@ -17,7 +14,6 @@ namespace Todo.Application.Services.Commands.TodoItem.Delete
             _todoItemRepository = todoItemRepository;
             _mapper = mapper;
         }
-
         public async Task<bool> Handle(DeleteTodoItemCommandRequest request, CancellationToken cancellationToken)
         {
             var todoItem = await _todoItemRepository.GetByIdAsync(request.Id);
@@ -28,7 +24,6 @@ namespace Todo.Application.Services.Commands.TodoItem.Delete
                 await _todoItemRepository.SaveAsync();
                 return true;
             }
-
             return false;
         }
     }

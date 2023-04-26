@@ -9,7 +9,6 @@ namespace Todo.Application.Services.Commands.Category.Insert
 {
     public class InsertCategoryCommandRequest : IRequest<bool>
     {
-        public string Name { get; set; }
-        public string Description { get; set; }
+         public string Description { get; set; }
     }
 }

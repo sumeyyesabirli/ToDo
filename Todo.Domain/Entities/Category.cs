@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Todo.Core.Entities
 {
-    public class Category :BaseEntity
+    public class Category : BaseEntity
     {
-       public string Description { get; set; }
+        public string Description { get; set; }
         public virtual ICollection<TodoItem> TodoItems { get; set; }
     }
 }

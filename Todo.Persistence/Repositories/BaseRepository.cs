@@ -46,9 +46,9 @@ namespace Todo.Persistence.Repositories
             return  await _context.Set<T>().FirstOrDefaultAsync(p=> p.Id == id);
         }
 
-        public async Task<T> GetSingleAsync(Expression<Func<T, bool>> method)
+        public async Task<T> GetSingleAsync(Expression<Func<T, bool>> filter)
         {
-            return await _context.Set<T>().FirstOrDefaultAsync(method);
+            return await _context.Set<T>().FirstOrDefaultAsync(filter);
         }
        
         public bool Update(T entity)

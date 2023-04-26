@@ -22,17 +22,18 @@ namespace Todo.Application.Services.Commands.TodoItem.Update
 
         public async Task<bool> Handle(UpdateTodoItemCommandRequest request, CancellationToken cancellationToken)
         {
+            //var todoItem = await  _todoItemRepository.GetByIdAsync(request.Id);
 
-            var todoItem = await  _todoItemRepository.GetByIdAsync(request.Id);
+            var todoItem = request.Id;
 
             if (todoItem != null)
             {
                 var map = _mapper.Map<Core.Entities.TodoItem>(request);
-                var ıtemRepo = _todoItemRepository.Update(map);
+                var itemRepo = _todoItemRepository.Update(map);
                 await _todoItemRepository.SaveAsync();
                 return true;
             }
-            return false;            
+            return false;
         }
     }
 }

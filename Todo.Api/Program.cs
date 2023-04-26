@@ -1,4 +1,5 @@
 using Blog.Infrastructure.Persistence;
+using Todo.Api.Extensions;
 using TodoList.Application;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,6 +23,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.ConfigureExceptionHandler();
 
 app.UseHttpsRedirection();
 

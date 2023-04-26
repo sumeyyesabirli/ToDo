@@ -13,5 +13,6 @@ namespace Todo.Application.Services.Queries.TodoItem.GetAll
         public string Name { get; set; }
         public DateTime? DueDate { get; set; }
         public Guid? CategoryId { get; set; }
+        public Guid? UserId { get; set; }
     }
 }
