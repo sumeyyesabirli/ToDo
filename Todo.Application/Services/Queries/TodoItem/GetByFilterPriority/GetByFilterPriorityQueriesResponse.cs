@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Todo.Core.Entities;
 using Todo.Core.Enums;
 
-namespace Todo.Application.Services.Queries.TodoItem.GetAll
+namespace Todo.Application.Services.Queries.TodoItem.GetByFilterPriority
 {
-    public class GetAllTodoItemQueriesResponse
+    public class GetByFilterPriorityQueriesResponse
     {
         public Guid Id { get; set; }
         public string Name { get; set; }

@@ -60,5 +60,10 @@ namespace Todo.Persistence.Repositories
         {
            return await _context.SaveChangesAsync();
         }
+
+        public IEnumerable<T> GetByFilter(Func<T, bool> filter)
+        {
+            return _context.Set<T>().Where(filter).ToList();
+        }
     }
 }

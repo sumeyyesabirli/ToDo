@@ -4,11 +4,12 @@ using Todo.Application.Services.Commands.TodoItem.Delete;
 using Todo.Application.Services.Commands.TodoItem.Insert;
 using Todo.Application.Services.Commands.TodoItem.Update;
 using Todo.Application.Services.Queries.TodoItem.GetAll;
+using Todo.Application.Services.Queries.TodoItem.GetByFilterPriority;
 using Todo.Core.Controller;
 
 namespace Todo.Api.Controllers
 {
-    
+
     public class TodoItemController : BaseController
     {
 
@@ -17,7 +18,7 @@ namespace Todo.Api.Controllers
              => Ok(await Mediator.Send(request));
 
         [HttpDelete]
-        public async Task<IActionResult> ItemDelete ([FromBody] DeleteTodoItemCommandRequest request)
+        public async Task<IActionResult> ItemDelete([FromBody] DeleteTodoItemCommandRequest request)
            => Ok(await Mediator.Send(request));
 
         [HttpGet]
@@ -27,5 +28,10 @@ namespace Todo.Api.Controllers
         [HttpPut]
         public async Task<IActionResult> Update([FromBody] UpdateTodoItemCommandRequest request)
              => Ok(await Mediator.Send(request));
+
+        [HttpGet("filter")]
+        public async Task<IActionResult> GetByFilter([FromQuery] GetByFilterPriorityQueriesRequest request)
+               => Ok(await Mediator.Send(request));
+
     }
 }

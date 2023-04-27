@@ -11,7 +11,9 @@ using Todo.Application.Services.Commands.TodoItem.Update;
 using Todo.Application.Services.Commands.User.Insert;
 using Todo.Application.Services.Queries.Category.GetAll;
 using Todo.Application.Services.Queries.TodoItem.GetAll;
+using Todo.Application.Services.Queries.TodoItem.GetByFilterPriority;
 using Todo.Core.Entities;
+using Todo.Core.Enums;
 
 namespace Todo.Application.MappingConfiguration
 {
@@ -26,6 +28,9 @@ namespace Todo.Application.MappingConfiguration
             CreateMap<UpdateTodoItemCommandRequest, TodoItem>().ReverseMap();
             CreateMap<DeleteTodoItemCommandRequest, TodoItem>().ReverseMap();
             CreateMap<GetAllTodoItemQueriesResponse, TodoItem>().ReverseMap();
+            CreateMap<GetByFilterPriorityQueriesResponse, TodoItem>().ReverseMap();
+            
+
 
 
             CreateMap<InsertCategoryCommandRequest, Category>().ReverseMap();
