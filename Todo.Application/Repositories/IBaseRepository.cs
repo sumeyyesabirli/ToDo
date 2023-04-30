@@ -12,7 +12,7 @@ namespace Todo.Application.Repositories
     {
         bool Update(T entity);
         bool Delete(T entity);
-        bool DeleteRenge(List<T> entity);
+        bool DeleteRange(List<T> entity);
         Task<int> SaveAsync();
         Task<T> GetByIdAsync(Guid id);
         Task<bool> AddAsync(T entity);

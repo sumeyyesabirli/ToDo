@@ -24,7 +24,11 @@ namespace Todo.Application.Services.Queries.TodoItem.GetByFilterPriority
 
         public Task<List<GetByFilterPriorityQueriesResponse>> Handle(GetByFilterPriorityQueriesRequest request, CancellationToken cancellationToken)
         {
-           var filteredItems = _todoItemRepository.GetByFilter(x => x.Priority == request.Priority).ToList();
+            var filteredItems = _todoItemRepository.GetByFilter(x =>
+                request.Priority.HasValue ? x.Priority == request.Priority.Value : x.Id != null
+                && request.StartDate.HasValue ? x.DueDate >= request.StartDate.Value : x.Id != null
+                && request.EndDate.HasValue ? x.DueDate <= request.EndDate.Value : x.Id != null).ToList();
+
             var map = _mapper.Map<List<GetByFilterPriorityQueriesResponse>>(filteredItems);
             return Task.FromResult(map);
         }

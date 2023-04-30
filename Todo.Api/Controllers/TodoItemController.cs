@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Todo.Application.Services.Commands.TodoItem.Delete;
+using Todo.Application.Services.Commands.TodoItem.DeleteRange;
 using Todo.Application.Services.Commands.TodoItem.Insert;
 using Todo.Application.Services.Commands.TodoItem.Update;
 using Todo.Application.Services.Queries.TodoItem.GetAll;
@@ -19,6 +20,10 @@ namespace Todo.Api.Controllers
 
         [HttpDelete]
         public async Task<IActionResult> ItemDelete([FromBody] DeleteTodoItemCommandRequest request)
+           => Ok(await Mediator.Send(request));
+
+        [HttpDelete("ToList")]
+        public async Task<IActionResult> ItemDeleteRange([FromBody] DeleteRangeTodoItemCommandRequest request)
            => Ok(await Mediator.Send(request));
 
         [HttpGet]

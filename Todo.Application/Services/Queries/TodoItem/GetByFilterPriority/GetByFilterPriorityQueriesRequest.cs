@@ -11,5 +11,7 @@ namespace Todo.Application.Services.Queries.TodoItem.GetByFilterPriority
     public class GetByFilterPriorityQueriesRequest : IRequest<List<GetByFilterPriorityQueriesResponse>>
     {
          public Priority? Priority { get; set; }
+        public DateTime? StartDate { get; set; }
+        public DateTime? EndDate { get; set; }
     }
 }

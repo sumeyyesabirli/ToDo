@@ -31,7 +31,7 @@ namespace Todo.Persistence.Repositories
             EntityEntry<T> entityEntry = _context.Remove(entity);
             return entityEntry.State == EntityState.Deleted;
         }
-        public bool DeleteRenge(List<T> entity)
+        public bool DeleteRange(List<T> entity)
         {
             _context.RemoveRange(entity);
             return true;
