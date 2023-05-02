@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using Todo.Application.Services.Commands.Category.Delete;
 using Todo.Application.Services.Commands.Category.Insert;
+using Todo.Application.Services.Commands.Category.Update;
 using Todo.Application.Services.Commands.TodoItem.Delete;
 using Todo.Application.Services.Commands.TodoItem.DeleteRange;
 using Todo.Application.Services.Commands.TodoItem.Insert;
@@ -26,7 +28,8 @@ namespace Todo.Application.MappingConfiguration
             CreateMap<GetByFilterPriorityQueriesResponse, TodoItem>().ReverseMap();
 
             CreateMap<InsertCategoryCommandRequest, Category>().ReverseMap();
-            CreateMap<InsertCategoryCommandRequest, Category>().ReverseMap();
+            CreateMap<DeleteCategoryCommandRequest, Category>().ReverseMap();
+            CreateMap<UpdateCategoryCommandRequest, Category>().ReverseMap();
             CreateMap<GetAllCategoryQueriesResponse, Category>().ReverseMap();
         
         }
