@@ -18,11 +18,15 @@ namespace Blog.Infrastructure.Persistence
                     .LogTo(x => Debug.WriteLine(x));
                 x.EnableSensitiveDataLogging();
             });
+
+            var seedData = new SeedData();
+            seedData.SeedAsync(configuration).GetAwaiter().GetResult();
+
             services.AddScoped<DbContext, EfDbContext>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<ITodoItemRepository, TodoItemRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
-
         }
     }
+
 }

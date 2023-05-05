@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WjDLqu2rUKZFINSrQwhXub7mlkdeL4nSR5+274OxD2dpHLZd5Rdy54Vk74UmZ7dTAxARutlIdRdvkqC3m+3Yzg==",
+  "dgSpecHash": "hIkQpw0owzvc7/Y75dO+H9tY14AEOL1U1hLyZtFQQQpteLm/G5tkvZEreXPYBjh8TUFN9yauzI52XRDIm3hlrw==",
   "success": true,
   "projectFilePath": "D:\\Todo\\Todo.Persistence\\Todo.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\90553\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\90553\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\90553\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\90553\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\90553\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\90553\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

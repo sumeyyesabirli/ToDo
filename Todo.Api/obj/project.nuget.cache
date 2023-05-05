@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "tB1SBUgpBcF2H9ABRe3fV3umojuu7inwCM0aFy9qhfoc1G2yuJhgrtq161AzpK2UXPoLe9MB+FqtIq5D70hAHg==",
+  "dgSpecHash": "ooIOhC2BxwUc40hoIvkXeZef9qkYyXERe4Vbwl90kBLwx8kxINpuCCJYzBjUyCVIo45SFLf9ZPmOJOe9z3kdsw==",
   "success": true,
   "projectFilePath": "D:\\Todo\\Todo.Api\\Todo.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\90553\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\90553\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\90553\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\90553\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\90553\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\90553\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

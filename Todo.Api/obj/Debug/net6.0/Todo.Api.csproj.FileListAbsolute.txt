@@ -65,3 +65,4 @@ D:\Todo\Todo.Api\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.Sq
 D:\Todo\Todo.Api\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Todo\Todo.Api\bin\Debug\net6.0\Todo.Application.dll
 D:\Todo\Todo.Api\bin\Debug\net6.0\Todo.Application.pdb
+D:\Todo\Todo.Api\bin\Debug\net6.0\Bogus.dll

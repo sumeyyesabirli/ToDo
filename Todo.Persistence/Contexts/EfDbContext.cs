@@ -14,7 +14,7 @@ namespace Todo.Persistence.Contexts
         {
             AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
         }
-
+        
         public DbSet<User> Users { get; set; }
         public DbSet<TodoItem> TodoItems { get; set; }
         public DbSet<Category> Categories { get; set; }
