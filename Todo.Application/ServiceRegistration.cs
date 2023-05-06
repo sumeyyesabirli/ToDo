@@ -1,4 +1,6 @@
-﻿using MediatR;
+﻿
+using FluentValidation;
+using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
@@ -13,8 +15,9 @@ namespace TodoList.Application
             var assembly = Assembly.GetExecutingAssembly()
                           .ExportedTypes
                           .Where(consumer => consumer.FullName != null && consumer.FullName.Contains("Handler") && consumer.IsClass)
-                          .ToArray();
+                          .ToArray();            
             services.AddMediatR(assembly);
+            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());            
 
             return services;
         }

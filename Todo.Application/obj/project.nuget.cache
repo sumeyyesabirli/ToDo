@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "1Rn/25Yff8EDj6gNvCs0yu7G7ZtxrgixHNxNBzVva2mXsIRgUA7OQdGlgZP2TQMRmCYKuQOfLg1CCzqbBJ8QQg==",
+  "dgSpecHash": "uQ08BqL5tKAQq6cV6sVouYUOc9d9NTVpd7ewdYPo3Xp8u9DVXCBHEKny+8iPwHkjR9IPBCM4rQFfqI4sAB2DAg==",
   "success": true,
   "projectFilePath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Application\\Todo.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\90553\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\90553\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\90553\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\90553\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.2\\fluentvalidation.dependencyinjectionextensions.11.5.2.nupkg.sha512",
     "C:\\Users\\90553\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\90553\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\90553\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

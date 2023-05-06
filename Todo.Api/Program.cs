@@ -1,10 +1,21 @@
 using Blog.Infrastructure.Persistence;
+using FluentValidation.AspNetCore;
 using Todo.Api.Extensions;
 using TodoList.Application;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services
+    .AddControllers()
+    .AddJsonOptions(opt =>
+    {
+        opt.JsonSerializerOptions.PropertyNamingPolicy = null;
+    })
+    .AddFluentValidation();
+    
+
 
 builder.Services.AddControllers().AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

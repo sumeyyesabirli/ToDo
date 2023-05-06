@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "67EGDcjh+rD1gwveOCmLdGOfZ885yNfNtN8KG9rnQv3OPJwr3oEb0bHMxOilUEjUAP328pZs7EAYQSHRA8ehSA==",
+  "dgSpecHash": "vC4f+4Rfl3QPOG4zgWzf4Ir4fhCVtjJ/8KMRb2LVL12TYCVlf8VDTdg4la2mDazheFtB1C0ZYAf85xphdPoCew==",
   "success": true,
   "projectFilePath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Persistence\\Todo.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\90553\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\90553\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\90553\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
+    "C:\\Users\\90553\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\90553\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.2\\fluentvalidation.dependencyinjectionextensions.11.5.2.nupkg.sha512",
     "C:\\Users\\90553\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\90553\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\90553\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

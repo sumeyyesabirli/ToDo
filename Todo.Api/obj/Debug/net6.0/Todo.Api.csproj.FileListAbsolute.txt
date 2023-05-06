@@ -134,3 +134,6 @@ C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Api\obj\Debug\net6.0\refint\To
 C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Api\obj\Debug\net6.0\Todo.Api.pdb
 C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Api\obj\Debug\net6.0\Todo.Api.genruntimeconfig.cache
 C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Api\obj\Debug\net6.0\ref\Todo.Api.dll
+C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Api\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
