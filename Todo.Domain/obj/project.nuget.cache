@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gippranFsc768j93hxr5Hqm7bQI629dGZjvkK3olZbtnZKD0o/vq5wD6AiOMmXl7+Fugfzge8RiGPg6PS22XuA==",
+  "dgSpecHash": "6FASHzGrpoZcQDPfpczN0FYlATwbj1HA3IEWrqK8VE82d2fmKXwqg7Ir+ihFfP0XrhRYpNa6czDjRAwlxI7dzQ==",
   "success": true,
-  "projectFilePath": "D:\\Todo\\Todo.Domain\\Todo.Core.csproj",
+  "projectFilePath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\Todo.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\90553\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\90553\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

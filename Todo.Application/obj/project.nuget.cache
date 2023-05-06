@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ej9EhGOFu1AnC9aAkzDC0VXcr6mA78WH4NHkyyH9HRyseAuFQlNPgoJbMCnKkEfwlHXz5LzB7GOZmlSTvUdO4Q==",
+  "dgSpecHash": "1Rn/25Yff8EDj6gNvCs0yu7G7ZtxrgixHNxNBzVva2mXsIRgUA7OQdGlgZP2TQMRmCYKuQOfLg1CCzqbBJ8QQg==",
   "success": true,
-  "projectFilePath": "D:\\Todo\\Todo.Application\\Todo.Application.csproj",
+  "projectFilePath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Application\\Todo.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\90553\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\90553\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

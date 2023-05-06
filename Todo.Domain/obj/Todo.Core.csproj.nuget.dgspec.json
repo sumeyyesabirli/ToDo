@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Todo\\Todo.Domain\\Todo.Core.csproj": {}
+    "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\Todo.Core.csproj": {}
   },
   "projects": {
-    "D:\\Todo\\Todo.Domain\\Todo.Core.csproj": {
+    "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\Todo.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Todo\\Todo.Domain\\Todo.Core.csproj",
+        "projectUniqueName": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\Todo.Core.csproj",
         "projectName": "Todo.Core",
-        "projectPath": "D:\\Todo\\Todo.Domain\\Todo.Core.csproj",
+        "projectPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\Todo.Core.csproj",
         "packagesPath": "C:\\Users\\90553\\.nuget\\packages\\",
-        "outputPath": "D:\\Todo\\Todo.Domain\\obj\\",
+        "outputPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\90553\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -10,3 +10,15 @@ D:\Todo\Todo.Domain\obj\Debug\net6.0\Todo.Core.dll
 D:\Todo\Todo.Domain\obj\Debug\net6.0\refint\Todo.Core.dll
 D:\Todo\Todo.Domain\obj\Debug\net6.0\Todo.Core.pdb
 D:\Todo\Todo.Domain\obj\Debug\net6.0\ref\Todo.Core.dll
+C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Domain\bin\Debug\net6.0\Todo.Core.deps.json
+C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Domain\bin\Debug\net6.0\Todo.Core.dll
+C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Domain\bin\Debug\net6.0\Todo.Core.pdb
+C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Domain\obj\Debug\net6.0\Todo.Core.csproj.AssemblyReference.cache
+C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Domain\obj\Debug\net6.0\Todo.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Domain\obj\Debug\net6.0\Todo.Core.AssemblyInfoInputs.cache
+C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Domain\obj\Debug\net6.0\Todo.Core.AssemblyInfo.cs
+C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Domain\obj\Debug\net6.0\Todo.Core.csproj.CoreCompileInputs.cache
+C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Domain\obj\Debug\net6.0\Todo.Core.dll
+C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Domain\obj\Debug\net6.0\refint\Todo.Core.dll
+C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Domain\obj\Debug\net6.0\Todo.Core.pdb
+C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Domain\obj\Debug\net6.0\ref\Todo.Core.dll

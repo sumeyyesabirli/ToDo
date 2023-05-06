@@ -3105,11 +3105,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Todo\\Todo.Api\\Todo.Api.csproj",
+      "projectUniqueName": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Api\\Todo.Api.csproj",
       "projectName": "Todo.Api",
-      "projectPath": "D:\\Todo\\Todo.Api\\Todo.Api.csproj",
+      "projectPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Api\\Todo.Api.csproj",
       "packagesPath": "C:\\Users\\90553\\.nuget\\packages\\",
-      "outputPath": "D:\\Todo\\Todo.Api\\obj\\",
+      "outputPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\90553\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3126,8 +3126,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Todo\\Todo.Persistence\\Todo.Persistence.csproj": {
-              "projectPath": "D:\\Todo\\Todo.Persistence\\Todo.Persistence.csproj"
+            "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Persistence\\Todo.Persistence.csproj": {
+              "projectPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Persistence\\Todo.Persistence.csproj"
             }
           }
         }

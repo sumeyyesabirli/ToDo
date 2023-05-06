@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Todo\\Todo.Api\\Todo.Api.csproj": {}
+    "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Api\\Todo.Api.csproj": {}
   },
   "projects": {
-    "D:\\Todo\\Todo.Api\\Todo.Api.csproj": {
+    "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Api\\Todo.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Todo\\Todo.Api\\Todo.Api.csproj",
+        "projectUniqueName": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Api\\Todo.Api.csproj",
         "projectName": "Todo.Api",
-        "projectPath": "D:\\Todo\\Todo.Api\\Todo.Api.csproj",
+        "projectPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Api\\Todo.Api.csproj",
         "packagesPath": "C:\\Users\\90553\\.nuget\\packages\\",
-        "outputPath": "D:\\Todo\\Todo.Api\\obj\\",
+        "outputPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\90553\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Todo\\Todo.Persistence\\Todo.Persistence.csproj": {
-                "projectPath": "D:\\Todo\\Todo.Persistence\\Todo.Persistence.csproj"
+              "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Persistence\\Todo.Persistence.csproj": {
+                "projectPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Persistence\\Todo.Persistence.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "D:\\Todo\\Todo.Application\\Todo.Application.csproj": {
+    "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Application\\Todo.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Todo\\Todo.Application\\Todo.Application.csproj",
+        "projectUniqueName": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Application\\Todo.Application.csproj",
         "projectName": "Todo.Application",
-        "projectPath": "D:\\Todo\\Todo.Application\\Todo.Application.csproj",
+        "projectPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Application\\Todo.Application.csproj",
         "packagesPath": "C:\\Users\\90553\\.nuget\\packages\\",
-        "outputPath": "D:\\Todo\\Todo.Application\\obj\\",
+        "outputPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\90553\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -101,8 +101,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Todo\\Todo.Domain\\Todo.Core.csproj": {
-                "projectPath": "D:\\Todo\\Todo.Domain\\Todo.Core.csproj"
+              "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\Todo.Core.csproj": {
+                "projectPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\Todo.Core.csproj"
               }
             }
           }
@@ -169,14 +169,14 @@
         }
       }
     },
-    "D:\\Todo\\Todo.Domain\\Todo.Core.csproj": {
+    "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\Todo.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Todo\\Todo.Domain\\Todo.Core.csproj",
+        "projectUniqueName": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\Todo.Core.csproj",
         "projectName": "Todo.Core",
-        "projectPath": "D:\\Todo\\Todo.Domain\\Todo.Core.csproj",
+        "projectPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\Todo.Core.csproj",
         "packagesPath": "C:\\Users\\90553\\.nuget\\packages\\",
-        "outputPath": "D:\\Todo\\Todo.Domain\\obj\\",
+        "outputPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\90553\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -245,14 +245,14 @@
         }
       }
     },
-    "D:\\Todo\\Todo.Persistence\\Todo.Persistence.csproj": {
+    "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Persistence\\Todo.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Todo\\Todo.Persistence\\Todo.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Persistence\\Todo.Persistence.csproj",
         "projectName": "Todo.Persistence",
-        "projectPath": "D:\\Todo\\Todo.Persistence\\Todo.Persistence.csproj",
+        "projectPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Persistence\\Todo.Persistence.csproj",
         "packagesPath": "C:\\Users\\90553\\.nuget\\packages\\",
-        "outputPath": "D:\\Todo\\Todo.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\90553\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -269,11 +269,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Todo\\Todo.Application\\Todo.Application.csproj": {
-                "projectPath": "D:\\Todo\\Todo.Application\\Todo.Application.csproj"
+              "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Application\\Todo.Application.csproj": {
+                "projectPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Application\\Todo.Application.csproj"
               },
-              "D:\\Todo\\Todo.Domain\\Todo.Core.csproj": {
-                "projectPath": "D:\\Todo\\Todo.Domain\\Todo.Core.csproj"
+              "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\Todo.Core.csproj": {
+                "projectPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\Todo.Core.csproj"
               }
             }
           }

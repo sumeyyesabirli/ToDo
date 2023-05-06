@@ -10,6 +10,7 @@ using Todo.Application.Services.Commands.User.Insert;
 using Todo.Application.Services.Queries.Category.GetAll;
 using Todo.Application.Services.Queries.TodoItem.GetAll;
 using Todo.Application.Services.Queries.TodoItem.GetByFilterPriority;
+using Todo.Application.Services.Queries.User.GetAll;
 using Todo.Core.Entities;
 
 namespace Todo.Application.MappingConfiguration
@@ -19,6 +20,7 @@ namespace Todo.Application.MappingConfiguration
         public MapProfile()
         {
             CreateMap<RegisterUserCommandRequest, User>().ReverseMap();
+            CreateMap<GetAllUserQueriesResponse, User>().ReverseMap();
 
             CreateMap<InsertTodoItemCommandRequest, TodoItem>().ReverseMap();
             CreateMap<UpdateTodoItemCommandRequest, TodoItem>().ReverseMap();

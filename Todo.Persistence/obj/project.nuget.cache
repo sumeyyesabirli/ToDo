@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hIkQpw0owzvc7/Y75dO+H9tY14AEOL1U1hLyZtFQQQpteLm/G5tkvZEreXPYBjh8TUFN9yauzI52XRDIm3hlrw==",
+  "dgSpecHash": "67EGDcjh+rD1gwveOCmLdGOfZ885yNfNtN8KG9rnQv3OPJwr3oEb0bHMxOilUEjUAP328pZs7EAYQSHRA8ehSA==",
   "success": true,
-  "projectFilePath": "D:\\Todo\\Todo.Persistence\\Todo.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Persistence\\Todo.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\90553\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\90553\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

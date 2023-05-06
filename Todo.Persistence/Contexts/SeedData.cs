@@ -24,7 +24,15 @@ namespace Todo.Persistence.Contexts
                 .RuleFor(i => i.Password, i => PasswordEncryptor.Encrpt(i.Internet.Password()))
                 .Generate(10);
             return result;
-
+        }
+        private static List<Category> GetCategory()
+        {
+            var result = new Faker<Category>("tr")
+                .RuleFor(i => i.Id, i => Guid.NewGuid())
+                .RuleFor(i => i.CreatedDate, i => i.Date.Between(DateTime.Now.AddDays(-100), DateTime.Now))
+                .RuleFor(i => i.Description, i => i.Person.FirstName)
+                .Generate(10);
+            return result;
         }
 
         public async Task SeedAsync(IConfiguration configuration)
@@ -43,6 +51,26 @@ namespace Todo.Persistence.Contexts
             var users = GetUsers();
             var userIds = users.Select(i => i.Id);
             await context.Users.AddRangeAsync(users);
+
+            var categories = GetCategory();
+            var categoriesId = categories.Select(i => i.Id);
+     
+            await context.Categories.AddRangeAsync(categories);
+          
+
+            var guids = Enumerable.Range(0,15).Select(i=>Guid.NewGuid()).ToList();
+            int counter = 0;
+
+            var todo = new Faker<TodoItem>("tr")
+                .RuleFor(i => i.Id, i => guids[counter++])
+                .RuleFor(i => i.CreatedDate, i => i.Date.Between(DateTime.Now.AddDays(-100), DateTime.Now))
+                .RuleFor(i => i.Name, i => i.Lorem.Sentence(5,5))
+                .RuleFor(i => i.CategoryId, i => i.PickRandom(categoriesId))        
+                .Generate(10);
+
+            
+            var todoId = todo.Select(i => i.Id);
+            await context.TodoItems.AddRangeAsync(todo);
             await context.SaveChangesAsync();
         }
     }
