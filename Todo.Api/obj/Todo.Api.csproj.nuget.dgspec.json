@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Api\\Todo.Api.csproj": {}
+    "C:\\Projeler\\Todo\\Todo.Api\\Todo.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Api\\Todo.Api.csproj": {
+    "C:\\Projeler\\Todo\\Todo.Api\\Todo.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Api\\Todo.Api.csproj",
+        "projectUniqueName": "C:\\Projeler\\Todo\\Todo.Api\\Todo.Api.csproj",
         "projectName": "Todo.Api",
-        "projectPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Api\\Todo.Api.csproj",
-        "packagesPath": "C:\\Users\\90553\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Api\\obj\\",
+        "projectPath": "C:\\Projeler\\Todo\\Todo.Api\\Todo.Api.csproj",
+        "packagesPath": "C:\\Users\\sumey\\.nuget\\packages\\",
+        "outputPath": "C:\\Projeler\\Todo\\Todo.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\90553\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sumey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Persistence\\Todo.Persistence.csproj": {
-                "projectPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Persistence\\Todo.Persistence.csproj"
+              "C:\\Projeler\\Todo\\Todo.Persistence\\Todo.Persistence.csproj": {
+                "projectPath": "C:\\Projeler\\Todo\\Todo.Persistence\\Todo.Persistence.csproj"
               }
             }
           }
@@ -48,6 +52,10 @@
               "target": "Package",
               "version": "[11.3.0, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -65,7 +73,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -77,21 +86,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.311\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Application\\Todo.Application.csproj": {
+    "C:\\Projeler\\Todo\\Todo.Application\\Todo.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Application\\Todo.Application.csproj",
+        "projectUniqueName": "C:\\Projeler\\Todo\\Todo.Application\\Todo.Application.csproj",
         "projectName": "Todo.Application",
-        "projectPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Application\\Todo.Application.csproj",
-        "packagesPath": "C:\\Users\\90553\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Application\\obj\\",
+        "projectPath": "C:\\Projeler\\Todo\\Todo.Application\\Todo.Application.csproj",
+        "packagesPath": "C:\\Users\\sumey\\.nuget\\packages\\",
+        "outputPath": "C:\\Projeler\\Todo\\Todo.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\90553\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sumey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,8 +118,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\Todo.Core.csproj": {
-                "projectPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\Todo.Core.csproj"
+              "C:\\Projeler\\Todo\\Todo.Domain\\Todo.Core.csproj": {
+                "projectPath": "C:\\Projeler\\Todo\\Todo.Domain\\Todo.Core.csproj"
               }
             }
           }
@@ -168,7 +181,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -177,21 +191,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.311\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\Todo.Core.csproj": {
+    "C:\\Projeler\\Todo\\Todo.Domain\\Todo.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\Todo.Core.csproj",
+        "projectUniqueName": "C:\\Projeler\\Todo\\Todo.Domain\\Todo.Core.csproj",
         "projectName": "Todo.Core",
-        "projectPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\Todo.Core.csproj",
-        "packagesPath": "C:\\Users\\90553\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\obj\\",
+        "projectPath": "C:\\Projeler\\Todo\\Todo.Domain\\Todo.Core.csproj",
+        "packagesPath": "C:\\Users\\sumey\\.nuget\\packages\\",
+        "outputPath": "C:\\Projeler\\Todo\\Todo.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\90553\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sumey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -244,7 +262,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -253,21 +272,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.311\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Persistence\\Todo.Persistence.csproj": {
+    "C:\\Projeler\\Todo\\Todo.Persistence\\Todo.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Persistence\\Todo.Persistence.csproj",
+        "projectUniqueName": "C:\\Projeler\\Todo\\Todo.Persistence\\Todo.Persistence.csproj",
         "projectName": "Todo.Persistence",
-        "projectPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Persistence\\Todo.Persistence.csproj",
-        "packagesPath": "C:\\Users\\90553\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Persistence\\obj\\",
+        "projectPath": "C:\\Projeler\\Todo\\Todo.Persistence\\Todo.Persistence.csproj",
+        "packagesPath": "C:\\Users\\sumey\\.nuget\\packages\\",
+        "outputPath": "C:\\Projeler\\Todo\\Todo.Persistence\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\90553\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sumey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -281,11 +304,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Application\\Todo.Application.csproj": {
-                "projectPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Application\\Todo.Application.csproj"
+              "C:\\Projeler\\Todo\\Todo.Application\\Todo.Application.csproj": {
+                "projectPath": "C:\\Projeler\\Todo\\Todo.Application\\Todo.Application.csproj"
               },
-              "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\Todo.Core.csproj": {
-                "projectPath": "C:\\Users\\90553\\Desktop\\Yeni klasör (4)\\Todo\\Todo.Domain\\Todo.Core.csproj"
+              "C:\\Projeler\\Todo\\Todo.Domain\\Todo.Core.csproj": {
+                "projectPath": "C:\\Projeler\\Todo\\Todo.Domain\\Todo.Core.csproj"
               }
             }
           }
@@ -324,9 +347,17 @@
               "target": "Package",
               "version": "[7.0.3, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[7.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.10.0, )"
             }
           },
           "imports": [
@@ -335,7 +366,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -344,7 +376,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.311\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

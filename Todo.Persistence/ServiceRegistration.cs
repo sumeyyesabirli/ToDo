@@ -21,8 +21,8 @@ namespace Blog.Infrastructure.Persistence
                 });
             });
 
-          // var seedData = new SeedData();
-          // seedData.SeedAsync(configuration).GetAwaiter().GetResult();
+         //var seedData = new SeedData();
+         //seedData.SeedAsync(configuration).GetAwaiter().GetResult();
 
             services.AddScoped<DbContext, EfDbContext>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();

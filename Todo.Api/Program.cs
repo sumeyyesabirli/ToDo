@@ -1,5 +1,8 @@
 using Blog.Infrastructure.Persistence;
 using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using Todo.Api.Extensions;
 using TodoList.Application;
 
@@ -14,6 +17,23 @@ builder.Services
         opt.JsonSerializerOptions.PropertyNamingPolicy = null;
     })
     .AddFluentValidation();
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer("Admin", options =>
+    {
+        options.TokenValidationParameters = new()
+        {
+            ValidateAudience = true,
+            ValidateIssuer = true, 
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+
+
+            ValidAudience = builder.Configuration["Token:Audience"],
+            ValidIssuer = builder.Configuration["Token:Issuer"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Token:SecurityKey"])),
+        };
+    });
     
 
 

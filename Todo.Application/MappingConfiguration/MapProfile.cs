@@ -7,6 +7,7 @@ using Todo.Application.Services.Commands.TodoItem.DeleteRange;
 using Todo.Application.Services.Commands.TodoItem.Insert;
 using Todo.Application.Services.Commands.TodoItem.Update;
 using Todo.Application.Services.Commands.User.Insert;
+using Todo.Application.Services.Commands.User.Login;
 using Todo.Application.Services.Queries.Category.GetAll;
 using Todo.Application.Services.Queries.TodoItem.GetAll;
 using Todo.Application.Services.Queries.TodoItem.GetByFilterPriority;
@@ -21,6 +22,7 @@ namespace Todo.Application.MappingConfiguration
         {
             CreateMap<RegisterUserCommandRequest, User>().ReverseMap();
             CreateMap<GetAllUserQueriesResponse, User>().ReverseMap();
+            CreateMap<LoginUserCommandResponse, User>().ReverseMap();
 
             CreateMap<InsertTodoItemCommandRequest, TodoItem>().ReverseMap();
             CreateMap<UpdateTodoItemCommandRequest, TodoItem>().ReverseMap();

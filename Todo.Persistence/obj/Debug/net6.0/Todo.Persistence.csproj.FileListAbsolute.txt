@@ -36,3 +36,22 @@ C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Persistence\obj\Debug\net6.0\r
 C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Persistence\obj\Debug\net6.0\Todo.Persistence.pdb
 C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Persistence\obj\Debug\net6.0\Todo.Persistence.genruntimeconfig.cache
 C:\Users\90553\Desktop\Yeni klasör (4)\Todo\Todo.Persistence\obj\Debug\net6.0\ref\Todo.Persistence.dll
+C:\Projeler\Todo\Todo.Persistence\bin\Debug\net6.0\Todo.Persistence.deps.json
+C:\Projeler\Todo\Todo.Persistence\bin\Debug\net6.0\Todo.Persistence.runtimeconfig.json
+C:\Projeler\Todo\Todo.Persistence\bin\Debug\net6.0\Todo.Persistence.dll
+C:\Projeler\Todo\Todo.Persistence\bin\Debug\net6.0\Todo.Persistence.pdb
+C:\Projeler\Todo\Todo.Persistence\bin\Debug\net6.0\Todo.Application.dll
+C:\Projeler\Todo\Todo.Persistence\bin\Debug\net6.0\Todo.Core.dll
+C:\Projeler\Todo\Todo.Persistence\bin\Debug\net6.0\Todo.Application.pdb
+C:\Projeler\Todo\Todo.Persistence\bin\Debug\net6.0\Todo.Core.pdb
+C:\Projeler\Todo\Todo.Persistence\obj\Debug\net6.0\Todo.Persistence.csproj.AssemblyReference.cache
+C:\Projeler\Todo\Todo.Persistence\obj\Debug\net6.0\Todo.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projeler\Todo\Todo.Persistence\obj\Debug\net6.0\Todo.Persistence.AssemblyInfoInputs.cache
+C:\Projeler\Todo\Todo.Persistence\obj\Debug\net6.0\Todo.Persistence.AssemblyInfo.cs
+C:\Projeler\Todo\Todo.Persistence\obj\Debug\net6.0\Todo.Persistence.csproj.CoreCompileInputs.cache
+C:\Projeler\Todo\Todo.Persistence\obj\Debug\net6.0\Todo.Persistence.csproj.CopyComplete
+C:\Projeler\Todo\Todo.Persistence\obj\Debug\net6.0\Todo.Persistence.dll
+C:\Projeler\Todo\Todo.Persistence\obj\Debug\net6.0\refint\Todo.Persistence.dll
+C:\Projeler\Todo\Todo.Persistence\obj\Debug\net6.0\Todo.Persistence.pdb
+C:\Projeler\Todo\Todo.Persistence\obj\Debug\net6.0\Todo.Persistence.genruntimeconfig.cache
+C:\Projeler\Todo\Todo.Persistence\obj\Debug\net6.0\ref\Todo.Persistence.dll
