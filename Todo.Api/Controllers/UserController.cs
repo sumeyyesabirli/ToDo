@@ -11,11 +11,11 @@ namespace Todo.Api.Controllers
     public class UserController : BaseController
     {
 
-      //  [HttpPost]
-      //  public async Task<IActionResult> Register([FromBody] RegisterUserCommandRequest request)
-      //      => Ok(await Mediator.Send(request));
+       [HttpPost]
+       public async Task<IActionResult> Register([FromBody] RegisterUserCommandRequest request)
+           => Ok(await Mediator.Send(request));
 
-        [HttpPost]
+        [HttpPut]
         public async Task<IActionResult> Login([FromBody] LoginUserCommandRequest request)
            => Ok(await Mediator.Send(request));
 

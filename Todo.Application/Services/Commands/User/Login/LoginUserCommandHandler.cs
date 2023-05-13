@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using MediatR;
+using System.Net;
 using Todo.Application.Exceptions;
 using Todo.Application.Repositories;
 using Todo.Application.Services.Queries.User.GetAll;
@@ -23,24 +24,23 @@ namespace Todo.Application.Services.Commands.User.Login
 
         public async Task<LoginUserCommandResponse> Handle(LoginUserCommandRequest request, CancellationToken cancellationToken)
         {
-
-            var filteredItems = _userRepository.GetByFilter(x => x.Email == request.Email && x.Password == request.Password);
+            string encryptedPassword = PasswordEncryptor.Encrpt(request.Password);
+            var filteredItems = _userRepository.GetByFilter(x => x.Email == request.Email);
             var user = filteredItems.FirstOrDefault();
-            if (user == null)
+
+            //StringComparison.OrdinalIgnoreCase değeri, karşılaştırma işleminin büyü-küçük harf duyarlılığı olmaksızın gerçekleştirilmesini sağlar
+
+            if (user == null || !string.Equals(user.Password, encryptedPassword, StringComparison.OrdinalIgnoreCase))
             {
                 throw new NotFoundUserException();
-
             }
+
             else
             {
                 var response = _mapper.Map<LoginUserCommandResponse>(user);
                 return response;
-            }
-
-
-            // var filteredItems = _userRepository.GetByFilter(x => x.Email == request.Email && x.Password == request.Password);
-            // var map = _mapper.Map<Core.Entities.User>(filteredItems);
-            // return Task.FromResult(map);
+            }         
+           
         }
     }
 }
